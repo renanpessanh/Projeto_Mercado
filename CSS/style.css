@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 body {
   background: #ffffff;
@@ -174,7 +172,7 @@ img {
 .wrapper-promo {
   max-width: 1280px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .promo-title {
   max-width: 1280px;
@@ -263,24 +261,29 @@ img {
 /* Hero */
 
 /* Footer */
-.footer-wrapper{
+.footer-wrapper {
   margin: 0 auto;
-  padding: 150px;
+  padding: 100px;
   background: #0b64355b;
 }
-.footer-content{
+
+.footer-list {
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.footer-text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.link {
   color: #084625;
   font-family: "inter";
-  font-size: 24px;
   text-transform: uppercase;
-  padding-top: 26px;
-  gap: 52px;
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+.sub-link{
+color: #084625;
+font-family: "inter";
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 100;
 }
 /* Footer */
