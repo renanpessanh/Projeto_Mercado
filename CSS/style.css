@@ -59,12 +59,14 @@ img {
 }
 
 .ul-menu li .nav-a {
+  text-transform: uppercase;
+  font-weight: 550;
   font-size: 16px;
   color: #000000;
 }
 
 .ul-menu .nav-a:hover {
-  color: #0b6434;
+  color: #0b6e3a;
 }
 .login-class {
   display: flex;
@@ -169,7 +171,12 @@ img {
   justify-content: center;
   padding: 35px 0 20px 0;
 }
-.promo-title{
+.wrapper-promo {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.promo-title {
   max-width: 1280px;
   margin: 0 auto;
   color: #084625;
@@ -185,17 +192,12 @@ img {
   gap: 32px;
   grid-template-columns: 1fr 1fr;
 }
-.promo-2{
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
 .bg-vegetal {
   border-radius: 10px;
   background: #f0ce55;
-  padding: 40px 57px;
+  padding: 42px;
 }
-.promo-text{
+.promo-text {
   color: #084625;
   font-family: "inter";
   font-size: 44px;
@@ -203,31 +205,82 @@ img {
   text-align: center;
   padding-top: 26px;
 }
-.promo-veg{
-display: flex;
-justify-content: center;
-padding-top: 40px;
+.promo-veg {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
 }
-
-.fruta1 {
+.promo-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.fruta-conteudo {
   display: flex;
   align-items: center;
   gap: 42px;
-  padding: 32px;
+  padding: 50px;
   border-radius: 10px;
   background: rgba(253, 81, 81, 0.67);
 }
-.promo-text2{
+.promo-text2 {
   color: #084625;
   font-family: "inter";
-  font-size: 22px;
+  font-size: 32px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 26px;
-  gap: 32px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bebida1 {
-  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
   background: #ff9564;
 }
+.promo-text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #084625;
+  font-family: "inter";
+  font-size: 36px;
+  text-transform: uppercase;
+  padding-top: 26px;
+}
+.text3 {
+  color: #084625;
+  font-family: "inter";
+  font-size: 32px;
+}
+.promo-drink {
+  padding-left: 20px;
+  padding-bottom: 38px;
+}
+/* Hero */
+
+/* Footer */
+.footer-wrapper{
+  margin: 0 auto;
+  padding: 150px;
+  background: #0b64355b;
+}
+.footer-content{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #084625;
+  font-family: "inter";
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-top: 26px;
+  gap: 52px;
+}
+/* Footer */
