@@ -38,7 +38,9 @@ img {
   margin: 0 auto;
   max-width: 1280px;
 }
-
+#btn-mobile {
+  display: none;
+}
 .content {
   display: flex;
   padding-right: 26px;
@@ -262,7 +264,6 @@ img {
 
 /* Footer */
 .footer-container {
-  max-width: 100%;
   margin: 0 auto;
 }
 .footer-wrapper {
@@ -301,3 +302,13 @@ img {
 }
 
 /* Footer */
+
+/* mobile */
+
+@media (max-width: 1024px) {
+  #btn-mobile {
+    display: none;
+  }
+}
+
+/* mobile */
