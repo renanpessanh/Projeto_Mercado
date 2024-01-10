@@ -7,17 +7,17 @@ body {
 
 a {
   text-decoration: none;
-  font-family: "inter", "inter";
+  font-family: "inter", "arial";
 }
 
 li {
   font-weight: 500;
   list-style: none;
-  font-family: "inter", "inter";
+  font-family: "inter", "arial";
 }
 
 p {
-  font-family: "inter", "inter";
+  font-family: "inter", "arial";
 }
 img {
   display: block;
@@ -53,13 +53,13 @@ img {
 }
 
 .ul-menu li {
-  padding-left: 32px;
+  padding-left: 22px;
 }
 
 .ul-menu li .nav-a {
   text-transform: uppercase;
   font-weight: 550;
-  font-size: 16px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -68,7 +68,7 @@ img {
 }
 .login-class {
   display: flex;
-  padding-left: 300px;
+  padding-left: 236px;
 }
 .notific-btn {
   color: #000000;
@@ -110,7 +110,7 @@ img {
 .hero-title {
   color: #fff;
   padding-top: 60px;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 25px;
   letter-spacing: 1.45px;
   text-transform: uppercase;
@@ -147,7 +147,7 @@ img {
 .time-title {
   color: #084625;
   padding: 34px 0 50px 0;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -157,7 +157,7 @@ img {
 }
 .category {
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   text-transform: uppercase;
   text-align: center;
   padding: 20px;
@@ -178,7 +178,7 @@ img {
   max-width: 1280px;
   margin: 0 auto;
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 22px;
   text-transform: uppercase;
   padding: 44px 0 36px 0;
@@ -197,7 +197,7 @@ img {
 }
 .promo-text {
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 44px;
   text-transform: uppercase;
   text-align: center;
@@ -244,14 +244,14 @@ img {
   align-items: center;
   justify-content: center;
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 36px;
   text-transform: uppercase;
   padding-top: 26px;
 }
 .text3 {
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   font-size: 32px;
 }
 .promo-drink {
@@ -261,29 +261,43 @@ img {
 /* Hero */
 
 /* Footer */
-.footer-wrapper {
+.footer-container {
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+}
+.footer-wrapper {
+  padding: 40px;
   background: #0b64355b;
 }
-
 .footer-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  margin-top: 20px;
+  padding-right: 40px;
 }
 .link {
   color: #084625;
-  font-family: "inter";
+  font-family: "inter" "arial";
   text-transform: uppercase;
   font-size: 28px;
-  font-weight: 600;
-  padding-bottom: 12px;
+  font-weight: 650;
+  padding-bottom: 18px;
 }
-.sub-link{
-color: #084625;
-font-family: "inter";
-text-transform: uppercase;
-font-size: 18px;
-font-weight: 100;
+.footer-link {
+  color: #084625;
+  font-family: "inter" "arial";
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
+.footer-link:hover {
+  color: #0a9149;
+}
+.link-gap {
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
 /* Footer */
